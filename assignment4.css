@@ -1,12 +1,12 @@
-h2{
-    text-align: center;
-    text-decoration: double;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 table{
     width: 600px;
     border: 2px solid black;
-    position: absolute;
-    left: 680px;
 }
 .heading {
     background-color: rgba(112, 80, 255, 0.589);
@@ -15,18 +15,6 @@ table{
 #big{
     height: 100px;
     width: 330px;
-}
-.footer{
-    position: absolute;
-    top: 750px;
-    left: 860px;
-    text-decoration: double;
-}
-.footer1{
-    position: absolute;
-    top: 750px;
-    left: 650px;
-    text-decoration: double;
 }
 div{
     position: absolute;
